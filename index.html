@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header
+        {
+            font-weight: bold;;
+            font-size: 3em;;
+            padding-left:15px;
+            color:white;
+            line-height: 150px;;
+            background-color: #9933CC;
+            min-height: 150px;
+            width:100%;
+            
+        }
+        body
+        {
+            font-family: "Lucida Sans", sans-serif;
+            margin:0px;
+        }
+        .r_main
+        {
+            clear:both;
+        }
+        .left
+        {
+            
+            min-height:200px;
+            width:24%;
+            float:left;
+        }
+        section
+        {
+            min-height:400px;
+            width:50%;
+            float:left;
+        }
+        section > h1
+        {
+            padding-left:10px;
+            font-size: 2.5em;
+        }
+        section > p
+        {
+            
+            padding-left:10px;
+            font-size: 1.5em;
+        }
+        .right
+        { 
+            padding-top:20px;
+            margin-bottom:20px;
+            margin-top: 20px;
+            text-align:center;
+            background-color: rgb(51,181,229);
+            float:left;
+            width:24%;
+            min-height:400px;
+            color:white;
+            
+        }
+        li
+        {
+            list-style: none;
+            font-size:1.2em;  
+        }
+        button
+        {
+            height:45px;
+            margin:5px -15px;
+            border:none;
+            text-align: left;
+            padding-left:5%;
+            width:100%;
+            color:white;
+            font-size:1em;
+            background-color: rgb(51,181,229);
+        }
+        footer
+        {
+            text-align:center;
+            color:white;
+            line-height:100px;
+            font-size:1.2em;
+            background-color: rgb(0,153,204);
+            clear:both;
+            height:100px;
+            width:100%;
+         
+           
+        }
+        @media only screen and (max-width:800px)
+        {
+            .right
+            {
+                width: 100%;
+            }
+
+            section
+            {
+                width:74%;
+            }
+        }
+
+        @media only screen and (max-width:558px)
+        {
+            section
+            {
+
+                width:100%;
+            } 
+
+            .left
+            {
+                width:100%;
+                text-align:center;   
+            }
+
+            button
+            {
+                text-align:center;
+                margin-right:5px;
+            }
+
+            .right
+            {
+               
+
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="./css/1.css">
+</head>
+<body>
+    <header>
+        Chania
+    </header>
+    <main class="r_main">
+        <aside class="left">
+            <ul>
+                <li><button>The Flight</button></li>
+                <li><button>The City</button></li>
+                <li><button>The Island</button></li>
+                <li><button>The Food</button></li>
+            </ul>
+        </aside>
+        <section>
+            <h1>The City</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+        </section>
+        <aside class="right">
+            <h2>What?</h2>
+            <p>Chania is a city on the island of Crete.</p>
+            <h2>Where?</h2>
+            <p>Crete is a Greek island in the Mediterranean Sea.</p>
+            <h2>How?</h2>
+            <p>You can reach Chania airport from all over Europe.</p>
+        </aside>
+    </main>
+    <footer>
+        Resize the browser window to see how the content respond to the resizing.
+    </footer>
+</body>
+</html>
